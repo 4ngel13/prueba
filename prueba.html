@@ -1,16 +1,16 @@
 <script>
     console.log("bienvenido")
-    for (let numero = 0; numero < 6; numero++) {
-        console.log(numero);
+    for (let numero = 1; numero <= 6; numero++) {
+       // console.log(numero);
         if (numero<=3) {
-            console.log('el numero',numero,'es la mitad del maximo')
+            console.log('el numero',numero,'es menos de la mitad del maximo')
         }
-        else if(numero=6){
-            console.log(numero,'es el numero maximo')
-        }
-        else{
+        else if(numero>3 || numero<6){
             console.log(numero,'esta por encima de la mitad')
         }
+        else{
+            console.log(numero,'es el numero maximo')
+        }
     }
-    console.log("fin del ciclo")
+    console.log("fin del ciclo \nhola")
 </script>
